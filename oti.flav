@@ -6,15 +6,15 @@
 ;----------// Theme Information
 
   name        = oti 
-  description = A brief description about the theme.
-  module      = cleanblue
+  description = The Orthopaedic Trauma Initiative's custom theme
+  module      = college
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
 
-  css[] = css/starterkit.css
-; css[] = css/starterkit.layout.css
-: ie_stylesheets[screen][lt IE 9][] = css/starterkit-ie.css
+  css[] = css/oti.css
+; css[] = css/oti.layout.css
+: ie_stylesheets[screen][lt IE 9][] = css/oti-ie.css
 
-; scripts[] = js/starterkit.js
+; scripts[] = js/oti.js
 
