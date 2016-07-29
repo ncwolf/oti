@@ -5,6 +5,10 @@ body {
 	font: arial,helvetica,sans-serif;
 	color:#fff;
 	}
+#page-wrapper {
+	background:none repeat scroll 0 0 #ffffff;
+	font-size:16px;
+}
 
 /* TYPOGRAPHY*/
 a, a:visited {
