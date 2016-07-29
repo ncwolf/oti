@@ -7,7 +7,7 @@
 
   name        = oti 
   description = The Orthopaedic Trauma Initiative's custom theme
-  module      = college
+  module      = College
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
