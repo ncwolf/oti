@@ -4,7 +4,11 @@
 body {
 	font: arial,helvetica,sans-serif;
 	color:#000;
-	background: url('../images/columnsBg.png') #f1f1f1;
+	}
+	
+	#page-wrapper {
+		background:none repeat scroll 0 0 #F3F3F1;
+		font-size:16px;
 	}
 
 /* TYPOGRAPHY*/
