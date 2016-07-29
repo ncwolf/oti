@@ -15,6 +15,7 @@ body {
 }
 #header {
 	background:none repeat scroll 0 0 #2e4b6d;
+	background-image: ../images/headerBKD.jpg;
 	color:#000000;
 	min-height:130px;
 }
