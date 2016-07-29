@@ -12,7 +12,7 @@ IN THIS EXAMPLE, THE OUTER CONTAINER HAS A WIDTH OF 980PX, AND SIDEBAR AND HEADE
 .region-sidebar-second {width: 230px; margin-left: -230px}
 
 
-#header-container .gpanel .region {float: left; clear: none;}
+#header-container .gpanel .region {float: left; clear: none; width:980px;}
 .header-left.header-main.header-right .region-header-second .region-inner {margin-left: 200px; margin-right: 230px;}
 .header-left.header-main .region-header-second .region-inner {margin-left: 200px; margin-right: 0;}
 .header-main.header-right .region-header-second .region-inner {margin-right: 230px; margin-left: 0;}
