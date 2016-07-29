@@ -5,9 +5,9 @@
 
 ;----------// Theme Information
 
-  name        = Starterkit 
-  description = A brief description about the theme.
-  module      = cleanblue
+  name        = oti
+  description = Orthopaedic Trauma Initiative at Harvard Medical School
+  module      = College
   screenshot  = screenshot.png
 
 ;----------// Stylesheets
