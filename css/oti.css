@@ -30,6 +30,21 @@ body {
 	border-left:1px solid #CCC;
 	border-right:1px solid #CCC;
 }
+.front #content-column .block,.node-person .block-inner,.comment-wrapper {
+	border:thin solid #b2bcc9;
+}
+.block-inner {
+	border:thin solid #b2bcc9;
+}
+.node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
+	background:none repeat scroll 0 0;
+	border-bottom:thin solid #b2bcc9;
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:16px;
+	padding:7px 10px;
+	font-weight:normal;
+}
 
 /* TYPOGRAPHY*/
 a, a:visited {
