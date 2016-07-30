@@ -14,8 +14,8 @@ body {
 	font-size:16px;
 }
 #header {
-	background: url(../images/headerBKD.jpg);
-	background-repeat: no-repeat;
+	background:url(../images/headerBKD.jpg);
+	background-repeat:no-repeat;
 }
 #columns {
 	margin-bottom:0;
