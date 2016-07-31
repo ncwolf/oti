@@ -47,6 +47,10 @@ body {
 #mainLeft {
 	margin-Left:10px;
 }
+mainCenter {
+	padding: 10px;
+	background: #60748f;
+}
 #mainRight {
 	margin-Right:10px;
 }
