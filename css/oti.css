@@ -29,6 +29,11 @@ body {
 #menu-bar ul.nice-menu .menuparent.over > a,#menu-bar ul.nice-menu .menuparent a:hover,#menu-bar ul.nice-menu .menuparent a.active {
 	background-color:#093254;
 }
+#menu-bar ul.nice-menu a.active,#menu-bar ul.nice-menu a:hover {
+	background:#093254;
+	color:#ffffff;
+}
+}
 #columns {
 	margin-bottom:0;
 	margin-top:0;
@@ -38,6 +43,13 @@ body {
 	background:#ffffff repeat scroll 0 0;
 	border:thin solid #b2bcc9;
 	padding: 7px 7px;
+}
+#mainLeft {
+	margin-Left:10px;
+}
+#mainRight {
+	margin-Right:10px;
+}
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
 	border-bottom:thin solid #b2bcc9;
@@ -49,6 +61,9 @@ body {
 }
 
 /* TYPOGRAPHY*/
+#menu-bar ul.nice-menu a {
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
 a, a:visited {
 	color:#446677;
 	text-decoration: none;
