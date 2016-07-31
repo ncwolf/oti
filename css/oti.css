@@ -34,19 +34,17 @@ body {
 	margin-top:0;
 	background:#e6edf3;
 }
-.block-inner {
+#mainLeft, #mainCenter, #mainRight {
 	background:#ffffff repeat scroll 0 0;
 	border:thin solid #b2bcc9;
 	padding: 7px 7px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
-	background:#ffffff repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
 	color: #c32032 !important;;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size:16px;
 	line-height:18px;
-	padding:7px 10px;
 	font-weight:700;
 }
 
