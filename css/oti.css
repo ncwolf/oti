@@ -34,11 +34,6 @@ body {
 	margin-top:0;
 	background:#e6edf3;
 }
-.front #content-column .block,.node-person .block-inner,.comment-wrapper {
-	background:#ffffff repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
-}
 .block-inner {
 	background:#ffffff repeat scroll 0 0;
 	border:thin solid #b2bcc9;
