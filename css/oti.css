@@ -16,7 +16,7 @@ body {
 #header {
 	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
 	width:100%;
-	border-bottom:2px solid #ffffff;
+	border-bottom:1px solid #ffffff;
 }
 #menu-bar {
 	background:#ac1f2d;
