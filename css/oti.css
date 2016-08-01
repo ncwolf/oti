@@ -44,13 +44,21 @@ body {
 	padding: 7px 7px;
 }
 #mainLeft {
+	background:#ffffff repeat scroll 0 0;
+	border:thin solid #b2bcc9;
+	padding: 7px 7px;
 	margin-Left:10px;
 }
 #mainCenter {
+	background:#60748f repeat scroll 0 0;
+	border:thin solid #b2bcc9;
+	padding: 7px 7px;
 	padding: 10px;
-	background: #60748f;
 }
 #mainRight {
+	background:#ffffff repeat scroll 0 0;
+	border:thin solid #b2bcc9;
+	padding: 7px 7px;
 	margin-Right:10px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
