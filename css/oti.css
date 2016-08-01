@@ -54,6 +54,7 @@ body {
 	margin-Right:10px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
+	background:#ffffff repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
 	color: #c32032 !important;;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
