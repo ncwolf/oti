@@ -59,12 +59,17 @@ ul.nice-menu ul {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 	margin-Left:-15px;
+	margin-bottom:10px;
 }
 .front #content-column .block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 }
-
+#footer {
+	background:repeat-x 0 0 #c2c2c2;
+	border-top:medium solid #959595;
+}
+}
 /* TYPOGRAPHY*/
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -105,6 +110,9 @@ a:hover {
 }
 .sidebar .block {
 	margin-Left:-20px;
+}
+.block.no-title .block-content {
+	margin-top:-20;
 }
 }
 
