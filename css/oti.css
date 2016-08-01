@@ -86,6 +86,9 @@ body {
 }
 
 /* TYPOGRAPHY*/
+body {
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
 #menu-bar ul.nice-menu a {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
