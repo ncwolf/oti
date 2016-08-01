@@ -74,6 +74,16 @@ body {
 	line-height:18px;
 	font-weight:700;
 }
+.sidebar .block {
+	background:#ffffff none repeat scroll 0 0;
+	border:thin solid #b2bcc9;
+	padding: 7px 7px;
+}
+.front #content-column .block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
+	background:#ffffff none repeat scroll 0 0;
+	border:thin solid #b2bcc9;
+	padding: 7px 7px;
+}
 
 /* TYPOGRAPHY*/
 #menu-bar ul.nice-menu a {
