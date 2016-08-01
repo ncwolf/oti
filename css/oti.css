@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 html,body {
-	background:#ffffff;
+	background:#e6edf3;
 	color:#1e1e1e;
 }
 body {
@@ -10,7 +10,7 @@ body {
 	line-height:24px;
 }
 #page-wrapper {
-	background:none repeat scroll 0 0 #ffffff;
+	background:none repeat scroll 0 0 #e6edf3;
 	font-size:16px;
 }
 #header {
@@ -34,33 +34,10 @@ body {
 	color:#ffffff;
 }
 #columns {
-	background:#e6edf3;
+	background:#ffffff;
 	margin-top:0;
 	margin-bottom:0;
-	padding:7px;
-}
-#mainLeft, #mainCenter, #mainRight {
-	background:#ffffff none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
-}
-#mainLeft {
-	background:#ffffff none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
-	margin-Left:10px;
-}
-#mainCenter {
-	background:#60748f none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
-	padding: 10px;
-}
-#mainRight {
-	background:#ffffff none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
-	margin-Right:10px;
+	padding:10px;
 }
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
@@ -68,7 +45,7 @@ body {
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
-	color: #c32032 !important;;
+	color: #c32032 !important;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size:16px;
 	line-height:18px;
@@ -76,15 +53,15 @@ body {
 }
 .sidebar .block {
 	background:#ffffff none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
 	padding: 7px 7px;
 }
 .front #content-column .block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
 	background:#ffffff none repeat scroll 0 0;
-	border:thin solid #b2bcc9;
-	padding: 7px 7px;
 }
-
+#footer {
+	padding:0 0 10px;
+}
+}
 /* TYPOGRAPHY*/
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
