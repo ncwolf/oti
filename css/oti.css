@@ -1,8 +1,8 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
 @import url('http://fonts.googleapis.com/css?family=Roboto+Condensed');
-
+/* Mobile Layout: 480px and below. */
 html,body {
-	background:#e6edf3;
+	background:#ffffff;
 	color:#1e1e1e;
 }
 body {
@@ -10,13 +10,13 @@ body {
 	line-height:24px;
 }
 #page-wrapper {
-	background:none repeat scroll 0 0 #e6edf3;
+	background:none repeat scroll 0 0 #ffffff;
 	font-size:16px;
 }
 #header {
 	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
 	width:100%;
-	border-bottom:1px solid #ffffff;
+	border-bottom:2px solid #ffffff;
 }
 #menu-bar {
 	background:#ac1f2d;
@@ -33,11 +33,15 @@ body {
 	background:#093254;
 	color:#ffffff;
 }
+ul.nice-menu ul {
+	top:3.5em !important;
+}
+}
 #columns {
-	background:#ffffff;
+	background:#e6edf3;
 	margin-top:0;
 	margin-bottom:0;
-	padding:10px;
+	padding:7px;
 }
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
@@ -45,7 +49,7 @@ body {
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
-	color: #c32032 !important;
+	color: #c32032 !important;;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size:16px;
 	line-height:18px;
@@ -54,20 +58,26 @@ body {
 .sidebar .block {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
+	margin-Left:-15px;
 }
 .front #content-column .block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
 	background:#ffffff none repeat scroll 0 0;
+	padding: 7px 7px;
 }
-#footer {
-	padding:0 0 10px;
-}
-}
+
 /* TYPOGRAPHY*/
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 #menu-bar ul.nice-menu a {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+#menu-bar ul.nice-menu .menuparent ul li a,#menu-bar ul.nice-menu .menuparent ul li a.active {
+	color:#FFF;
+	font-family:"Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-size:13px;
+	font-weight:700;
+	padding-right:8px;
 }
 a, a:visited {
 	color:#446677;
@@ -79,10 +89,34 @@ a:hover {
 	color: #222;
 	}
 
-
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
 .lt-ie9 h2 {
 	margin-bottom:10px;
 	}
-	
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+#header {
+	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
+	width:100%;
+	border-bottom:2px solid #ffffff;
+}
+.sidebar .block {
+	margin-Left:-20px;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+#header {
+	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
+	width:100%;
+	border-bottom:2px solid #ffffff;
+}
+.sidebar .block {
+	margin-Left:0px;
+}
+}
