@@ -98,8 +98,8 @@ a:hover {
 #footer .region-header-third ul.nice-menu a {
 	color:#446677;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-	font-size:9px;
-	font-weight:200;
+	font-size:8px;
+	font-weight:100;
 }
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
