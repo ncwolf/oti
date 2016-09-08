@@ -42,6 +42,9 @@ ul.nice-menu ul {
 	margin-bottom:0;
 	padding:7px;
 }
+#footerColumns {
+	padding:0px;
+}
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
 }
@@ -123,7 +126,7 @@ a:hover {
 	margin-Left:-20px;
 }
 .block.no-title .block-content {
-	margin-top:-20;
+	margin-top:20px;
 }
 }
 
