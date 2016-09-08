@@ -80,6 +80,11 @@ ul.nice-menu ul {
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
+h1#page-title {
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color:093254;
+}
 #menu-bar ul.nice-menu a {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
