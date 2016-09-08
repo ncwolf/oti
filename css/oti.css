@@ -123,7 +123,7 @@ a:hover {
 
 @media only (max-width: 1008px)
 
-.region-inner {
+.region-header-third .region-inner {
 	padding-top:0;
 }
 .sidebar .block {
