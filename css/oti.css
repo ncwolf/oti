@@ -71,6 +71,10 @@ ul.nice-menu ul {
     background: #aab6c4;
     border: none;
     color: #333;
+    font-family: Georgia, serif;
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 #footer {
 	background:repeat-x 0 0 #c2c2c2;
@@ -80,10 +84,13 @@ ul.nice-menu ul {
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
-h1#page-title {
+h1 {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	color:#093254;
+}
+p {
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 #menu-bar ul.nice-menu a {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -133,7 +140,7 @@ a:hover {
 
 @media only (max-width: 1008px) {
 .region-inner {
-	padding-top:0;
+	padding-top:0px;
 }
 .sidebar .block {
 	margin-Left:-20px;
@@ -144,6 +151,6 @@ a:hover {
 }
 @media only (min-width: 1009px) {
 .region-inner {
-	padding-top:0;
+	padding-top:0px;
 }
 }
