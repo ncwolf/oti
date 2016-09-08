@@ -131,11 +131,8 @@ a:hover {
 
 /* Tablet Layout. Inherits styles from: Mobile Layout. */
 
-@media only (max-width: 1008px)
+@media only (max-width: 1008px) {
 .region-inner {
-	padding-top:0;
-}
-.region-header-third .region-inner {
 	padding-top:0;
 }
 .sidebar .block {
@@ -144,7 +141,9 @@ a:hover {
 .block.no-title .block-content {
 	margin-top:20px;
 }
-@media only (min-width: 1009px)
+}
+@media only (min-width: 1009px) {
 .region-inner {
 	padding-top:0;
+}
 }
