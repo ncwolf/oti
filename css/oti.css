@@ -98,16 +98,21 @@ a:hover {
 	color:#3a5475;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
-#footer ul li a {
+#nice-menu-footer_hospitals ul {
+	width:100%;
+	margin-top:20px;
+}
+#nice-menu-footer_hospitals ul li {
+	width:25%;
+	padding:0;
+}
+#nice-menu-footer_hospitals ul li a {
 	color:#3a5475;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size:16px;
 	font-weight:100;
 }
-#nice-menu-footer_hospitals ul {
-	width:100%;
-	margin-top:20px;
-}
+
 /* IF THE SEPARATE IE CSS FILE IS NOT USED, PREFIX CLASSES CAN BE USED THROUGHOUT THIS FILE.
  THIS EXAMPLE IS AN IE8 OVERRIDE FOR MARGIN-BOTTOM OF AN H2 - .lt-ie8 WOULD TARGET IE7 */
 .lt-ie9 h2 {
