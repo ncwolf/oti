@@ -95,10 +95,10 @@ a:hover {
 	color:#3a5475;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
-#footer .region-header-third ul.nice-menu a {
-	color:#446677;
+#footer ul li a {
+	color:#3a5475;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
-	font-size:8px;
+	font-size:14px;
 	font-weight:100;
 }
 #nice-menu-footer_hospitals ul {
