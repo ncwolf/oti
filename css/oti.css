@@ -18,9 +18,6 @@ body {
 	width:100%;
 	border-bottom:2px solid #ffffff;
 }
-.region-inner {
-	padding-top:0;
-}
 #menu-bar {
 	background:#ac1f2d;
 	padding:0;
@@ -125,7 +122,9 @@ a:hover {
 /* Tablet Layout. Inherits styles from: Mobile Layout. */
 
 @media only (max-width: 1008px)
-
+.region-inner {
+	padding-top:0;
+}
 .region-header-third .region-inner {
 	padding-top:0;
 }
@@ -135,4 +134,7 @@ a:hover {
 .block.no-title .block-content {
 	margin-top:20px;
 }
-
+@media only (min-width: 1009px)
+.region-inner {
+	padding-top:0;
+}
