@@ -119,13 +119,12 @@ a:hover {
 	margin-bottom:10px;
 	}
 
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+/* Tablet Layout. Inherits styles from: Mobile Layout. */
 
-@media only screen and (min-width: 769px) {
-#header {
-	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
-	width:100%;
-	border-bottom:2px solid #ffffff;
+@media only (max-width: 1008px)
+
+.region-inner {
+	padding-top:0;
 }
 .sidebar .block {
 	margin-Left:-20px;
@@ -133,17 +132,4 @@ a:hover {
 .block.no-title .block-content {
 	margin-top:20px;
 }
-}
 
-/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
-@media only screen and (min-width: 1009px) {
-#header {
-	background: #ffffff url("../images/headerBKD1.jpg") no-repeat 0 0;
-	width:100%;
-	border-bottom:2px solid #ffffff;
-}
-.sidebar .block {
-	margin-Left:0px;
-}
-}
