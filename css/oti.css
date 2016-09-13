@@ -80,6 +80,9 @@ ul.nice-menu ul {
 	background:repeat-x 0 0 #c2c2c2;
 	border-top:medium solid #959595;
 }
+.footer.footer-right .region-footer-third {
+	float:right;
+}
 .socialMedia {
 	float:right;
 }
