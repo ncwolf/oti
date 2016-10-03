@@ -18,6 +18,12 @@ body {
 	width:100%;
 	border-bottom:2px solid #ffffff;
 }
+.hospitalLogos {
+	margin-bottom:5%;
+}
+.logoHeader {
+	margin-bottom:2%;
+}
 #menu-bar {
 	background:#ac1f2d;
 	padding:0;
