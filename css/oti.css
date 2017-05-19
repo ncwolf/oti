@@ -57,7 +57,7 @@ ul.nice-menu ul {
 	padding: 7px 7px;
 	margin-Left:-10px;
 }
-h2.block-title {
+.node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title, h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
 	color: #c32032 !important;;
