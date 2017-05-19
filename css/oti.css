@@ -104,6 +104,15 @@ h1 {
 	font-size: 24px;
 	color:#093254;
 }
+h2.block-title {
+	background:#ffffff none repeat scroll 0 0;
+	border-bottom:thin solid #b2bcc9;
+	color: #c32032 !important;;
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	line-height:18px;
+	font-weight:700;
+}
 p {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
