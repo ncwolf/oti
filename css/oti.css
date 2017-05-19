@@ -53,6 +53,9 @@ ul.nice-menu ul {
 }
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
+	background:#ffffff none repeat scroll 0 0;
+	padding: 7px 7px;
+	margin-Left:-10px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
