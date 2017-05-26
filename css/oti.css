@@ -72,10 +72,11 @@ ul.nice-menu ul {
 	margin-Left:-10px;
 	margin-bottom:10px;
 }
-.front #content-column .block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
+.front #content-column .block-boxes,.block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 }
+
 .accordion .ui-state-default, .accordion .ui-widget-content .ui-state-default, .accordion .ui-widget-header .ui-state-default, .accordion .ui-state-active, .accordion .ui-widget-content .ui-state-active, .accordion .ui-widget-header .ui-state-active {
     background: #aab6c4;
     border: none;
