@@ -48,8 +48,9 @@ ul.nice-menu ul {
 	margin-bottom:0;
 	padding:7px;
 }
+#content-panels .block-content, #content-panels .boxes-box-content, #content-panels #block-os-search-db-site-search.no-title #search-block-form
 #footerColumns {
-	padding:0px;
+	padding:20px;
 }
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
