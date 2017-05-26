@@ -93,6 +93,9 @@ ul.nice-menu ul {
 .socialMedia {
 	float:right;
 }
+.traumaRoundsHome {
+	background: #ffffff url("../images/traumaRoundsBkd.jpg") no-repeat 0 0;
+}
 /* TYPOGRAPHY*/
 body {
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
