@@ -48,10 +48,6 @@ ul.nice-menu ul {
 	margin-bottom:0;
 	padding:7px;
 }
-#content-panels .block-content, #content-panels .boxes-box-content, #content-panels #block-os-search-db-site-search.no-title #search-block-form
-#footerColumns {
-	padding:20px;
-}
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
 	background:#E6E6E3 none repeat scroll 0 0;
@@ -73,7 +69,7 @@ ul.nice-menu ul {
 	margin-Left:-10px;
 	margin-bottom:10px;
 }
-.front #content-column .block-boxes,.block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
+.front #content-column .block .block-boxes,.block.block-boxes-os_boxes_columns,.block-boxes.block-boxes-os_sv_list_box .block-inner,.block-boxes-os_boxes_manual_list,.sidebar .block.section-nav,#content-column .block.section-nav,.front #content-column .block.block-boxes-os_slideshow_box,.page-node.node-type-person .node-person .block-inner {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 }
