@@ -50,9 +50,15 @@ ul.nice-menu ul {
 }
 .front #content-column .block,.node-person .block-inner,.comment-wrapper {
 	border-top:none;
-	background:#E6E6E3 none repeat scroll 0 0;
+	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 	margin-Left:-10px;
+}
+#content-panels .block-inner {
+	margin-top: 0;
+}
+.content-boxes-box-content .traumaRoundsHome {
+	background: #ffffff url("../images/traumaRoundsBkd.jpg") no-repeat 0 0;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title, h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
