@@ -57,8 +57,8 @@ ul.nice-menu ul {
 #content-panels .block-inner {
 	margin-top: 0;
 }
-#content-panels .block-content, #content-panels .boxes-box-content, #content-panels #block-os-search-db-site-search.no-title #search-block-form .traumaRoundsHome {
-	background: #ffffff url("../images/traumaRoundsBkd.jpg") no-repeat 0 0;
+#content-panels .boxes-box-content {
+	background: #ffffff none repeat scroll 0 0;
 	margin-top: 20px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title, h2.block-title {
