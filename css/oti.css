@@ -57,7 +57,7 @@ ul.nice-menu ul {
 #content-panels .block-inner {
 	margin-top: 0;
 }
-#content-panels .boxes-box-content {
+#content-panels .block-content,#content-panels .boxes-box-content,#content-panels #block-os-search-db-site-search.no-title #search-block-form {
 	background: #ffffff none repeat scroll 0 0;
 	margin-top: 20px;
 }
