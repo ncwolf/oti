@@ -54,6 +54,9 @@ ul.nice-menu ul {
 	padding: 7px 7px;
 	margin-Left:-10px;
 }
+.content p {
+	padding: 7px 7px;
+}
 #content-panels .block-inner {
 	margin-top: 0;
 }
