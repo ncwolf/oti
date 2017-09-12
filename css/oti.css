@@ -54,11 +54,10 @@ ul.nice-menu ul {
 	padding: 7px 7px;
 	margin-Left:-10px;
 }
-.content p {
-	padding: 14px 14px;
-}
+.node .node-content
 #content-panels .block-inner {
 	margin-top: 0;
+	padding: 14px;
 }
 #content-panels .block-content,#content-panels .boxes-box-content,#content-panels #block-os-search-db-site-search.no-title #search-block-form {
 	background: #ffffff none repeat scroll 0 0;
