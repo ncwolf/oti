@@ -84,13 +84,13 @@ ul.nice-menu ul {
 }
 
 .accordion .ui-state-default, .accordion .ui-widget-content .ui-state-default, .accordion .ui-widget-header .ui-state-default, .accordion .ui-state-active, .accordion .ui-widget-content .ui-state-active, .accordion .ui-widget-header .ui-state-active {
-    background: #aab6c4;
-    border: none;
-    color: #333;
-    font-family: Georgia, serif;
-    font-size: small;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    background: #ffffff;
+    border-bottom:thin solid #b2bcc9;
+    color: #c32032 !important;;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    line-height:18px;
+    font-weight:700;
 }
 #footer {
 	background:repeat-x 0 0 #c2c2c2;
