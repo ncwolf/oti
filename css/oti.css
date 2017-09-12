@@ -82,7 +82,9 @@ ul.nice-menu ul {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
 }
-
+.field-name-body {
+    padding: 14px;
+}
 .accordion .ui-state-default, .accordion .ui-widget-content .ui-state-default, .accordion .ui-widget-header .ui-state-default, .accordion .ui-state-active, .accordion .ui-widget-content .ui-state-active, .accordion .ui-widget-header .ui-state-active {
     background: #ffffff;
     border-bottom:thin solid #b2bcc9;
