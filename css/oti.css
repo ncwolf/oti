@@ -58,9 +58,12 @@ ul.nice-menu ul {
 	margin-top: 0;
 	padding: 14px;
 }
-#content-panels .block-content,#content-panels .boxes-box-content,#content-panels #block-os-search-db-site-search.no-title #search-block-form {
+#content-panels .block-content, #content-panels #block-os-search-db-site-search.no-title #search-block-form {
 	background: #ffffff none repeat scroll 0 0;
 	margin-top: 20px;
+}
+#content-panels .boxes-box-content {
+	margin-top: 0;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title, h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
