@@ -75,6 +75,9 @@ ul.nice-menu ul {
 	line-height:18px;
 	font-weight:700;
 }
+#content-panels .block-inner {
+	margin-top: 0;
+}
 .sidebar .block {
 	background:#ffffff none repeat scroll 0 0;
 	padding: 7px 7px;
