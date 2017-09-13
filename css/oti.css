@@ -24,6 +24,10 @@ body {
 .logoHeader {
 	margin-bottom:2%;
 }
+.nav .block {
+    margin-bottom: 0;
+    margin-top: -10px;
+}
 #menu-bar {
 	background:#ac1f2d;
 	padding:0;
