@@ -28,6 +28,9 @@ body {
     margin-bottom: 0;
     margin-top: -10px;
 }
+.nav {
+	margin-top: 10px;
+}
 #menu-bar {
 	background:#ac1f2d;
 	padding:0;
