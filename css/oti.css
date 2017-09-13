@@ -81,7 +81,6 @@ ul.nice-menu ul {
 	font-weight:700;
 }
 #content-panels .block-inner {
-	background:#ffffff none repeat scroll 0 0;
 	margin-top: 0;
 }
 .sidebar .block {
@@ -95,6 +94,7 @@ ul.nice-menu ul {
 	padding: 7px 7px;
 }
 .field-name-body {
+    background:#ffffff none repeat scroll 0 0;
     padding: 14px;
 }
 .accordion .ui-state-default, .accordion .ui-widget-content .ui-state-default, .accordion .ui-widget-header .ui-state-default, .accordion .ui-state-active, .accordion .ui-widget-content .ui-state-active, .accordion .ui-widget-header .ui-state-active {
