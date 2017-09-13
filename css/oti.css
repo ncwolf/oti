@@ -67,8 +67,9 @@ ul.nice-menu ul {
 	margin-top: 20px;
 }
 #content-panels .block-content, .boxes-box-content {
+	background: #ffffff none repeat scroll 0 0;
 	margin-top: 0;
-	padding: 14px;
+	padding: 7px;
 }
 .node-type-person #content-column .node-person h2.block-title,.sidebar .block h2.block-title, h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
