@@ -69,7 +69,8 @@ ul.nice-menu ul {
 	background: #ffffff none repeat scroll 0 0;
 	margin-top: 20px;
 }
-#content-panels .block-content, .boxes-box-content {
+#content-panels .block-content {
+	background: #ffffff none repeat scroll 0 0;
 	margin-top: 0;
 	padding: 7px;
 }
@@ -133,7 +134,7 @@ h1 {
 h2.block-title {
 	background:#ffffff none repeat scroll 0 0;
 	border-bottom:thin solid #b2bcc9;
-	color: #c32032 !important;;
+	color: #c32032 !important;
 	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 	font-size:16px;
 	line-height:18px;
